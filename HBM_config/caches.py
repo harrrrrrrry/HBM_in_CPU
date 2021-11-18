@@ -59,3 +59,6 @@ class L2Cache(Cache):
 
     def connectMemSideBus(self, bus):
         self.mem_side = bus.cpu_side_ports
+        
+class L3HBMCache(Cache):
+    
